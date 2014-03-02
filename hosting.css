@@ -5,21 +5,16 @@ font-family:Montserrat,Arial,Helvetica,sans-serif;
 background:#FFF;
 }
 
-.navbar .container {
+div#myNavbar div.container {
     padding: 0;
 }
 
-.navbar-fixed-top {
-    position: fixed;
-}
-
-.navbar ul.nav {
+div#myNavbar ul.nav {
     padding-top: 7px;
 }
 
 .navbar-inner {
     padding: 10px 0 !important;
-    height: 54px !important;
 }
 
 .navbar .btn {
@@ -47,52 +42,6 @@ div.hero-unit {
     background-size: cover;
     background-image: url('../images/hero.jpg');
     background-position: 50%;
-}
-
-.whmcscontainer .contentpadded {
-    margin-top: 74px;
-    padding-top: 50px;
-    padding-bottom: 15px;
-}
-
-#submit-ticket .center {
-    margin: 0 auto;
-}
-
-#submit-ticket .span {
-    border: 1px solid #eeeeee;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    text-align: center;
-    margin: 10px;
-    width: 443px;
-}
-
-#submit-ticket .span .circle {
-    background-color: #2cc76a;
-    border-radius: 100%;
-    width: 60px;
-    height: 60px;
-    margin: 20px auto 0 auto;
-}
-
-#submit-ticket .span .circle i {
-    color: white;
-    line-height: 65px;
-}
-
-#submit-ticket .span .fontsize2 {
-    font-size: 25px;
-    margin-bottom: 15px;
-}
-
-#submit-ticket .span p {
-    color: #aaaaaa;
-}
-
-#submit-ticket .span .contentpadded {
-    margin: 0;
-    padding: 15px 0;
 }
 
 div#mainFeatures, div#featLayout {
@@ -371,7 +320,7 @@ text-align:center;
 .PlanPricing .price {
 background:#2cc76a;
 color:#FFF;
-font-size:50px;
+font-size:25px;
 -webkit-border-radius:100%;
 -moz-border-radius:100%;
 border-radius:100%;
@@ -648,6 +597,10 @@ text-align:center;
 
 .domain h1,.domain h3,.footer h1,.footer h3,.footerlinks ul li a {
     color:#FFF;
+}
+
+.input-append input,.input-prepend input,.ContactUs input[type=text],.ContactUs input[type=email] {
+    height:50px;
 }
 
 .ContactUs textarea,.commentform textarea {
